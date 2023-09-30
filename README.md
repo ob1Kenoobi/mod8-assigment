@@ -1,16 +1,33 @@
 # mod8_assignment
 
-A new Flutter project.
+# User Profile App
 
-## Getting Started
+This Flutter app demonstrates a user profile page with a responsive layout that adapts to both portrait and landscape orientations. It includes a profile image, a short bio, and a photo gallery with a grid of images.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Responsive design for portrait and landscape orientations.
+- Profile image with a circular avatar.
+- Short bio describing the user.
+- Photo gallery with a grid layout.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Include screenshots or GIFs of your app here.
+
+## Project Structure
+- lib/main.dart: Entry point of the application.
+- lib/user_profile_page.dart: Widget for the user profile page.
+- lib/profile_image.dart: Widget for displaying the profile image.
+- lib/image_grid.dart: Widget for the photo gallery grid.
+- lib/image_paths.dart: Class containing the paths of the images.
+
+## Dependencies
+Flutter: Get Started with Flutter
+
+## Contributing
+If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
