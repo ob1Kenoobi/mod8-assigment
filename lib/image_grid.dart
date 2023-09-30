@@ -1,26 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:mod8_assignment/image_paths.dart';
 
 class ImageGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // Your image grid code
+    // image grid code
     return _buildImageRows();
   }
 
   Widget _buildImageRows() {
-    // Your image paths
-    final List<String> imagePaths = [
-      'assets/images/photo.jpg',
-      'assets/images/photo1.jpg',
-      'assets/images/photo2.jpg',
-      'assets/images/photo3.jpg',
-      'assets/images/photo4.jpg',
-      'assets/images/photo5.jpg',
-      'assets/images/profile.jpg',
-      'assets/images/profile.jpg',
-      'assets/images/profile.jpg',
-      'assets/images/profile.jpg',
-    ];
+    List<String> imagePaths = ImagePaths.paths;
 
     const int picturesPerRow = 3;
 

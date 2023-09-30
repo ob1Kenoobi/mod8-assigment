@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:mod8_assignment/image_grid.dart';
 import 'package:mod8_assignment/profile_image.dart';
-// Make sure the import is correct
 
 class UserProfilePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('User Profile'),
+        title: Text('Profile'),
       ),
       body: OrientationBuilder(
         builder: (context, orientation) {
@@ -26,14 +25,14 @@ class UserProfilePage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           SizedBox(height: 16),
-          ProfileImage(), // Use the correct class name
+          ProfileImage(),
           SizedBox(height: 16),
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: Column(
               children: [
                 Text(
-                  'John Doe',
+                  'Hasan Al-Banna',
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
@@ -64,7 +63,7 @@ class UserProfilePage extends StatelessWidget {
         children: [
           Expanded(
             flex: 5,
-            child: ProfileImage(), // Use the correct class name
+            child: ProfileImage(),
           ),
           Expanded(
             flex: 6,
@@ -73,7 +72,7 @@ class UserProfilePage extends StatelessWidget {
               child: Column(
                 children: [
                   Text(
-                    'John Doe',
+                    'Hasan Al-Banna',
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
