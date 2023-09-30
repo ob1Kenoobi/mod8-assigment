@@ -14,6 +14,11 @@ This Flutter app demonstrates a user profile page with a responsive layout that 
 ## Screenshots
 
 Include screenshots or GIFs of your app here.
+1. portrait mode:
+   ![Screenshot_1696054760](https://github.com/ob1Kenoobi/mod8-assigment/assets/140194680/66118334-3df6-4f6e-9c3d-b36fc684f844)
+2. Landscape mode:
+   ![Screenshot_1696055280](https://github.com/ob1Kenoobi/mod8-assigment/assets/140194680/8d03509b-b93d-47cc-8555-40b1b7cbcb25)
+
 
 ## Project Structure
 - lib/main.dart: Entry point of the application.
